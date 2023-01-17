@@ -98,16 +98,31 @@ export default function Home() {
               <div className={styles.landingheaderdesc1}>Отзывы</div>
               <div className={styles.reviewsList}>
                 <div className={styles.review}>
-                  <div className={styles.reviewauthor}>Сергей Докторов</div>
+                  <div className={styles.productcontent}>
+                  <img className={styles.productlogo} src='https://sun9-east.userapi.com/sun9-60/s/v1/ig2/JIcw-iEQNY0N8mp0qC8jv9y18_Vg-SoEW6ha_81YfXfsmzm1m4zEDR4e0ptT9S0KUn5UkUtRaW3HRJYRAq2OiIBU.jpg?size=200x200&quality=95&crop=0,270,810,810&ava=1'/>
+                  <div>
+                    <div className={styles.reviewauthor}>Сергей Докторов</div>
                   <div className={styles.reviewtext}>Ребят, кто заказывает у оффициальной компании Owl Builders | Спавны, Хабы, Декор, заказывайте! Даже не думайте! У них целая команда, в кратце, Ребят ну это топчик! Такие спавны строят, аж - дух захватывает! Советую!!!</div>
+                  </div>
+                  </div>
                 </div>
                 <div className={styles.review}>
+                <div className={styles.productcontent}>
+                  <img className={styles.productlogo} src='https://sun9-west.userapi.com/sun9-52/s/v1/ig2/SpRM4ov29DmMMIbtQyC1j0zA-u_fQN-NqxtrE54RUNlhrtb2QsUWZZ7nVm1Zdt5_ZfbyKD5UU9lVzrDLydyttP2w.jpg?size=200x200&quality=95&crop=25,58,404,404&ava=1'/>
+                  <div>
                   <div className={styles.reviewauthor}>Дмитрий Белов</div>
                   <div className={styles.reviewtext}>Заказывал лобби регистрации, для своего сервера, сделали все быстро, качественно и эффективно. Если вам нужны качественные карты то заказывайте у них</div>
+                  </div>
+                  </div>
                 </div>
                 <div className={styles.review}>
+                <div className={styles.productcontent}>
+                  <img className={styles.productlogo} src='https://sun9-west.userapi.com/sun9-16/s/v1/ig2/uzOGbicX4EtNJB8gd1ljgerO297TunrJlXfFLspwmAgJBrCfr4LOD9NmYGfijzdGVr3JzKz_VVa9dt2MGsFUdPVy.jpg?size=200x200&quality=95&crop=156,107,469,469&ava=1'/>
+                  <div>
                   <div className={styles.reviewauthor}>Валентин Бортников</div>
                   <div className={styles.reviewtext}>Ребята очень дружелюбные и отзывчивые, никаких проблем в общении и коммуникации не возникало, строят невероятно круто за столь низкую цену, считаю лучшими в своем деле по праву, на все пожелания очень оперативно реагируют, не сомневайся доверить им постройку своего проекта</div>
+                  </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -348,7 +348,9 @@
   padding: 60px 20px 60px 20px;
   background: url(https://sun9-west.userapi.com/sun9-69/s/v1/ig2/DQjK6wM3AqUBTrSMLrC5S7jF6-Z2X6Yz2DqOHCCqYOuB-2FiaADt-ShUByOFOQK6iJ2pOBTOkAO6DawLLvQCO7jR.jpg?size=1920x1200&quality=96&type=album);
   background-position: left;
-  max-width: 1920px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .landingheadertitle {
@@ -396,6 +398,17 @@
 .landingheaderbtn {
   display: block;
   margin: 56px auto 0;
+}
+
+@media (max-width: 1120px) {
+
+  .landingheadertitle {
+    font-size: 48px;
+  }
+
+  .landingheaderdesc {
+    font-size: 20px;
+  }
 }
 
 .btnl1 {
@@ -613,13 +626,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
 }
 
 .review {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 275px;
+  max-width: 375px;
   border: 1px solid var(--color-divider,#efefef);
   border-radius: 8px;
   padding: 10px;
@@ -658,6 +672,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
 }
 
 .product {
