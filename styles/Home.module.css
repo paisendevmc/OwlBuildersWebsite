@@ -334,8 +334,11 @@
 }
 
 .landingheader {
-  display: block;
+  display: flex;
   margin-bottom: 40px;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .landingheadercontent {
@@ -345,6 +348,7 @@
   padding: 60px 20px 60px 20px;
   background: url(https://sun9-west.userapi.com/sun9-69/s/v1/ig2/DQjK6wM3AqUBTrSMLrC5S7jF6-Z2X6Yz2DqOHCCqYOuB-2FiaADt-ShUByOFOQK6iJ2pOBTOkAO6DawLLvQCO7jR.jpg?size=1920x1200&quality=96&type=album);
   background-position: left;
+  max-width: 1920px;
 }
 
 .landingheadertitle {
@@ -479,8 +483,16 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
-  padding-bottom: 40px;
   padding: 0 40px 20px 20px;
+}
+
+.ourprojects2 {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 40px 20px 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .car {
@@ -594,4 +606,145 @@
   -webkit-backdrop-filter: blur(10px);
   -moz-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 275px;
+  border: 1px solid var(--color-divider,#efefef);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.reviewauthor {
+  display: inline-block;
+  font-family: 'Inter';
+  font-stretch: normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.33333333em;
+  color: var(--bs-blue,#949494);
+  text-align: left;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+.reviewtext {
+  display: inline-block;
+  font-family: 'Inter';
+  font-stretch: normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.33333333em;
+  color: var(--color-primary,#949494);
+  text-align: left;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+.productList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 375px;
+  min-height: 275px;
+  border: 1px solid var(--color-divider,#efefef);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.productinfo {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productlogo {
+  width: 128px;
+  height: 128px;
+  border-radius: 8px;
+}
+
+.productcontent {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  min-height: 253px;
+}
+
+.productname {
+  display: inline-block;
+  font-family: 'Inter';
+  font-stretch: normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.33333333em;
+  color: var(--bs-blue,#949494);
+  text-align: left;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+.productprice {
+  display: inline-block;
+  font-family: 'Inter';
+  font-stretch: normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.33333333em;
+  color: var(--bs-yellow,#949494);
+  text-align: left;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+.productlink {
+  display: inline-block;
+  font-family: 'Inter';
+  font-stretch: normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.33333333em;
+  color: var(--bs-blue,#949494);
+  text-align: left;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+.producttext {
+  display: inline-block;
+  font-family: 'Inter';
+  font-stretch: normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.33333333em;
+  color: var(--color-primary,#949494);
+  text-align: left;
+  text-decoration: none;
+  transition: all .4s;
 }
