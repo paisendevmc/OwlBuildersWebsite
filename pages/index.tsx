@@ -44,6 +44,7 @@ export default function Home() {
           </div>
 
           <div className={styles.landingcontent}>
+          <div className={styles.landingheaderdesc1}>Наши работы</div>
             <div className={styles.ourprojects}>
               <BootstrapCarousel />
             </div>

@@ -335,7 +335,7 @@
 
 .landingheader {
   display: block;
-  margin-bottom: 120px;
+  margin-bottom: 40px;
 }
 
 .landingheadercontent {
@@ -364,6 +364,20 @@
 .landingheaderdesc {
   display: block;
   margin: 0.75em auto 0;
+  max-width: 960px;
+  font-family: 'Inter';
+  font-stretch: normal;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 1.4375em;
+  color: var(--color-primary,#1a1919);
+  text-align: center;
+}
+
+.landingheaderdesc1 {
+  display: block;
+  margin: 0 auto 0.75em;
   max-width: 960px;
   font-family: 'Inter';
   font-stretch: normal;
@@ -472,6 +486,11 @@
 .car {
   max-width: 1280px;
   height: 720px;
+  border-radius: 25px;
+}
+
+.carimg {
+  border-radius: 25px;
 }
 
 .landingfooter {

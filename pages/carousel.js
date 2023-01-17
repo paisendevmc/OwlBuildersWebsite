@@ -13,7 +13,7 @@ export default function BootstrapCarousel() {
     <Carousel activeIndex={index} onSelect={handleSelect} className={styles.car}>
       {bootstrap.map((item) => (
         <Carousel.Item key={item.id} className={styles.itemP} interval={4000}>
-          <img src={item.imageUrl} alt="slides" height='720' />
+          <img src={item.imageUrl} className={styles.carimg} alt="slides" height='720' />
         </Carousel.Item>
       ))}
     </Carousel>
